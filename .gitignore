@@ -1,0 +1,4 @@
+mirror/
+work/
+__pycache__/
+*.pyc
