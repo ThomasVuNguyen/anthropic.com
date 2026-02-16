@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "StyreneA";
+  src: url("/fonts/StyreneA_Regular_Web-s.p.429c699d.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "StyreneA";
+  src: url("/fonts/StyreneA_Medium_Web-s.p.e5135f7e.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TiemposText";
+  src: url("/fonts/TiemposText_Regular-s.p.7f1d46d6.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TiemposText";
+  src: url("/fonts/TiemposText_Medium-s.p.520d99f8.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --ink: #141413;
+  --paper: #faf9f5;
+  --soft: #e9e7df;
+  --muted: #5f5c54;
+  --accent: #c96442;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--ink);
+  background: var(--paper);
+  font-family: "StyreneA", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
