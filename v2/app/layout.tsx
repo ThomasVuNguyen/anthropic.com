@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Anthropic V2 Rewrite",
-  description: "Next.js rewrite workspace for anthropic.com-inspired design.",
+  title: "Anthropic",
+  description:
+    "Anthropic is an AI safety and research company building reliable and steerable AI systems.",
 };
 
 export default function RootLayout({
